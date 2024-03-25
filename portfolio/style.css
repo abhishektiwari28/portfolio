@@ -10,8 +10,8 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
+    --bg-color: rgb(5, 5, 5); /* #081b29, when use home.jpg for home section*/
+    --second-bg-color: #101111; /* #112e42, when use home.jpg for home section*/
     --text-color: #ededed;
     --main-color: #00abf0;
 }
@@ -82,7 +82,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('home.jpg') no-repeat;
+    background: url('myhome.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
